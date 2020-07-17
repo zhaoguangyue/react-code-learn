@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var ReactTypeOfWork = require('./ReactTypeOfWork');
 var IndeterminateComponent = ReactTypeOfWork.IndeterminateComponent,

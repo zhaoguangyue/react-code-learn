@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var escapeTextContentForBrowser = require('./escapeTextContentForBrowser');
 

@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var ReactComponentTreeHook = require('../../react/lib/ReactComponentTreeHook');
 

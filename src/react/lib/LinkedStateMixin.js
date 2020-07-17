@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var ReactLink = require('./ReactLink');
 var ReactStateSetters = require('./ReactStateSetters');

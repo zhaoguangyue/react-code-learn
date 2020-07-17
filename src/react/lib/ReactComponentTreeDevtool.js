@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  *
  */
-'use strict';
+ 
 
 // TODO remove this proxy when RN/www gets updated
 

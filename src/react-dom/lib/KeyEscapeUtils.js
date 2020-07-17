@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 /**
  * Escape and wrap key so it is safe to use as a reactid

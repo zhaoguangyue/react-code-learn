@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 function handleElement(debugID, element) {
   if (element == null || typeof element.type !== 'string') {

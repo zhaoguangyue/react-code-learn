@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 /**
  * Given a `prevElement` and `nextElement`, determines if the existing

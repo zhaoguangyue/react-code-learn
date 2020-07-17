@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var ReactInvalidSetStateWarningHook = require('./ReactInvalidSetStateWarningHook');
 var ReactHostOperationHistoryHook = require('./ReactHostOperationHistoryHook');

@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 /**
  * Keeps track of the current owner.

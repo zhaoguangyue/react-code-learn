@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var ReactElement = require('./ReactElement');
 

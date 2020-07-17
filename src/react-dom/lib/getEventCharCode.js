@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 /**
  * `charCode` represents the actual "character code" and is safe to use with

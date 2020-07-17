@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var _require = require('./ReactElement'),
     isValidElement = _require.isValidElement;

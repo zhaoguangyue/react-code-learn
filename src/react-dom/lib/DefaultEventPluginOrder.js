@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 /**
  * Module that is injectable into `EventPluginHub`, that specifies a

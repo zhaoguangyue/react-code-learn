@@ -8,6 +8,6 @@
 
 /* globals React */
 
-'use strict';
+ 
 
 module.exports = React;

@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var ReactFeatureFlags = {
   // When true, call console.time() before and .timeEnd() after each top-level

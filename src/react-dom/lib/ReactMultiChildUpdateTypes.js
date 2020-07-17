@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 /**
  * When a component's children are updated, a series of update configuration

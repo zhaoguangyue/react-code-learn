@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var caughtError = null;
 

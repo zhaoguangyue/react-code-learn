@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var EventPropagators = require('./EventPropagators');
 var ExecutionEnvironment = require('fbjs/lib/ExecutionEnvironment');

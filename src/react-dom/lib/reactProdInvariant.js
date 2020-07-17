@@ -6,7 +6,7 @@
  *
  * 
  */
-'use strict';
+ 
 
 /**
  * WARNING: DO NOT manually require this module.

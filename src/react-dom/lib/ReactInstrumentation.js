@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 // Trust the developer to only use ReactInstrumentation with a __DEV__ check
 

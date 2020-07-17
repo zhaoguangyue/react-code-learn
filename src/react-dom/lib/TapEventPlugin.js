@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var EventPluginUtils = require('./EventPluginUtils');
 var EventPropagators = require('./EventPropagators');

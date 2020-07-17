@@ -6,6 +6,6 @@
  *
  */
 
-'use strict';
+ 
 
 module.exports = '15.6.2';

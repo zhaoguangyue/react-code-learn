@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var SyntheticUIEvent = require('./SyntheticUIEvent');
 var ViewportMetrics = require('./ViewportMetrics');

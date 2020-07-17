@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var ReactFiberBeginWork = require('./ReactFiberBeginWork');
 var ReactFiberCompleteWork = require('./ReactFiberCompleteWork');

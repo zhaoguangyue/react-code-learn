@@ -13,7 +13,7 @@
  * that support it.
  */
 
-'use strict';
+ 
 
 var ReactCurrentOwner = require('./ReactCurrentOwner');
 var ReactComponentTreeHook = require('./ReactComponentTreeHook');

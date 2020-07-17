@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var _require = require('./ReactBaseClasses'),
     Component = _require.Component;

@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 module.exports = {
   NoWork: 0, // No work is pending.

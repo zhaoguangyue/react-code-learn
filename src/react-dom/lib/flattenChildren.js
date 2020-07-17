@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var KeyEscapeUtils = require('./KeyEscapeUtils');
 var traverseAllChildren = require('./traverseAllChildren');

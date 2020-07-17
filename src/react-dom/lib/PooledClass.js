@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var _prodInvariant = require('./reactProdInvariant');
 

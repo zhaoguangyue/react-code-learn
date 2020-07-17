@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var REACT_ELEMENT_TYPE = require('./ReactElementSymbol');
 

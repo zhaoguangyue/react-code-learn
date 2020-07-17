@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var ReactTypeOfWork = require('./ReactTypeOfWork');
 var ClassComponent = ReactTypeOfWork.ClassComponent,

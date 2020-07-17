@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var adler32 = require('./adler32');
 

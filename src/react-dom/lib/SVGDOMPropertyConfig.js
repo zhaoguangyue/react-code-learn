@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var NS = {
   xlink: 'http://www.w3.org/1999/xlink',

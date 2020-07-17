@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var CSSProperty = require('./CSSProperty');
 var warning = require('fbjs/lib/warning');

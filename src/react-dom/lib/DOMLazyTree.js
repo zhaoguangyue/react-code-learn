@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var DOMNamespaces = require('./DOMNamespaces');
 var setInnerHTML = require('./setInnerHTML');

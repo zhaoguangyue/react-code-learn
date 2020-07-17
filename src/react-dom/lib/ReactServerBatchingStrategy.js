@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var ReactServerBatchingStrategy = {
   isBatchingUpdates: false,

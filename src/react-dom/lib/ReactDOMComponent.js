@@ -8,7 +8,7 @@
 
 /* global hasOwnProperty:true */
 
-'use strict';
+ 
 
 var _prodInvariant = require('./reactProdInvariant'),
     _assign = require('object-assign');

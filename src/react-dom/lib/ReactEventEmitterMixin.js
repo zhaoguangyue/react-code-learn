@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var EventPluginHub = require('./EventPluginHub');
 

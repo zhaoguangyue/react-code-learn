@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 function getTestDocument(markup) {
   document.open();

@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var DOMLazyTree = require('./DOMLazyTree');
 var Danger = require('./Danger');

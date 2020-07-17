@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var ReactFiberReconciler = require('./ReactFiberReconciler');
 

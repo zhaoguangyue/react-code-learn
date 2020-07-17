@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var nextDebugID = 1;
 

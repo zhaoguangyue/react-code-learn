@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var _require = require('./ReactFiber'),
     createFiberFromElementType = _require.createFiberFromElementType;

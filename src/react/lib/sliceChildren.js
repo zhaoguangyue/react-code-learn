@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var ReactChildren = require('./ReactChildren');
 

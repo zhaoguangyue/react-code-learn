@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var _assign = require('object-assign');
 

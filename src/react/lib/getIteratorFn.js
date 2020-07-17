@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 /* global Symbol */
 

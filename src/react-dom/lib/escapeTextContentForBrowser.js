@@ -31,7 +31,7 @@
  *
  */
 
-'use strict';
+ 
 
 // code copied and modified from escape-html
 /**

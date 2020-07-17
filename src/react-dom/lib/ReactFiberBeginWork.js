@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var _require = require('./ReactChildFiber'),
     reconcileChildFibers = _require.reconcileChildFibers,

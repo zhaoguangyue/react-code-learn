@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var CSSProperty = require('./CSSProperty');
 var ExecutionEnvironment = require('fbjs/lib/ExecutionEnvironment');

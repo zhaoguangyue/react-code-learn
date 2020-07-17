@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 /**
  * Translation from modifier key to the associated property in the event.

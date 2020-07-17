@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 /**
  * Given any node return the first leaf node without children.

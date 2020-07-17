@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var DOMProperty = require('./DOMProperty');
 var ReactComponentTreeHook = require('../../react/lib/ReactComponentTreeHook');

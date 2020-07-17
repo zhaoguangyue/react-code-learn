@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var ReactDefaultInjection = require('./ReactDefaultInjection');
 var ReactServerRendering = require('./ReactServerRendering');

@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 /**
  * @param {array} arr an "accumulation" of items which is either an Array or

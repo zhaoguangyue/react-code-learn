@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var MOD = 65521;
 

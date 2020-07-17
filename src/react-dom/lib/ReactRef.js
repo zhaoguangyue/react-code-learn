@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var ReactOwner = require('./ReactOwner');
 

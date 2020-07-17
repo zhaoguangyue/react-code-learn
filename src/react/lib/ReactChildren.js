@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var PooledClass = require('./PooledClass');
 var ReactElement = require('./ReactElement');

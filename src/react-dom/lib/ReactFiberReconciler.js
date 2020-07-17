@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var _require = require('./ReactFiberRoot'),
     createFiberRoot = _require.createFiberRoot;

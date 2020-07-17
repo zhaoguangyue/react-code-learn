@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var LinkedStateMixin = require('./LinkedStateMixin');
 var React = require('./React');

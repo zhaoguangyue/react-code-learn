@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var ExecutionEnvironment = require('fbjs/lib/ExecutionEnvironment');
 var DOMNamespaces = require('./DOMNamespaces');

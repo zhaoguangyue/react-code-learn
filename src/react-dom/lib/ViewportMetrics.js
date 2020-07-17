@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var ViewportMetrics = {
   currentScrollLeft: 0,

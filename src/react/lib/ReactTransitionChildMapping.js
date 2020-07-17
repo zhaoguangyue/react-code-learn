@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var flattenChildren = require('./flattenChildren');
 

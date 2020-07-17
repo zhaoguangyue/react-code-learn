@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 module.exports = {
   IndeterminateComponent: 0, // Before we know whether it is functional or class

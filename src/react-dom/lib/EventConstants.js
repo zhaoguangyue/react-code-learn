@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 /**
  * Types of raw signals from the browser caught at the top level.

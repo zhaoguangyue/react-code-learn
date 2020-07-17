@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var shallowEqual = require('fbjs/lib/shallowEqual');
 

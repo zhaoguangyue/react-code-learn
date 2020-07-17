@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 /**
  * Injectable ordering of event plugins.

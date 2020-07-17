@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var React = require('../../react/lib/React');
 var ReactDOM = require('./ReactDOM');

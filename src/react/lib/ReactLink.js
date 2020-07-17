@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 /**
  * ReactLink encapsulates a common pattern in which a component wants to modify

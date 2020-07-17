@@ -8,7 +8,7 @@
 
 /* globals __REACT_DEVTOOLS_GLOBAL_HOOK__*/
 
-'use strict';
+ 
 
 var ReactDOMComponentTree = require('./ReactDOMComponentTree');
 var ReactDefaultInjection = require('./ReactDefaultInjection');

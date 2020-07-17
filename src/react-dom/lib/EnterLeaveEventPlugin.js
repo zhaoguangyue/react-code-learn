@@ -6,7 +6,7 @@
  *
  */
 
-'use strict';
+ 
 
 var EventPropagators = require('./EventPropagators');
 var ReactDOMComponentTree = require('./ReactDOMComponentTree');

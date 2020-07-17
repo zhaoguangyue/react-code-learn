@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 // The Symbol used to tag the ReactElement type. If there is no native Symbol
 // nor polyfill, then a plain number is used for performance.

@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var _require = require('./ReactFiber'),
     createHostContainerFiber = _require.createHostContainerFiber;

@@ -7,7 +7,7 @@
  * 
  */
 
-'use strict';
+ 
 
 var canDefineProperty = false;
 
