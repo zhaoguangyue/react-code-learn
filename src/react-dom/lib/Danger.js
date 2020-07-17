@@ -8,14 +8,12 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant');
+   
 
 var DOMLazyTree = require('./DOMLazyTree');
-var ExecutionEnvironment = require('fbjs/lib/ExecutionEnvironment');
-
 var createNodesFromMarkup = require('fbjs/lib/createNodesFromMarkup');
 var emptyFunction = require('fbjs/lib/emptyFunction');
-var invariant = require('fbjs/lib/invariant');
+   
 
 var Danger = {
   /**

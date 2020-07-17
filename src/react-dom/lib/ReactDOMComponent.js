@@ -10,8 +10,7 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant'),
-    _assign = require('object-assign');
+var _assign = require('object-assign');
 
 var AutoFocusUtils = require('./AutoFocusUtils');
 var CSSPropertyOperations = require('./CSSPropertyOperations');
@@ -28,18 +27,14 @@ var ReactDOMInput = require('./ReactDOMInput');
 var ReactDOMOption = require('./ReactDOMOption');
 var ReactDOMSelect = require('./ReactDOMSelect');
 var ReactDOMTextarea = require('./ReactDOMTextarea');
-var ReactInstrumentation = require('./ReactInstrumentation');
 var ReactMultiChild = require('./ReactMultiChild');
 var ReactServerRenderingTransaction = require('./ReactServerRenderingTransaction');
 
 var emptyFunction = require('fbjs/lib/emptyFunction');
 var escapeTextContentForBrowser = require('./escapeTextContentForBrowser');
-var invariant = require('fbjs/lib/invariant');
-var isEventSupported = require('./isEventSupported');
+   
 var shallowEqual = require('fbjs/lib/shallowEqual');
 var inputValueTracking = require('./inputValueTracking');
-var validateDOMNesting = require('./validateDOMNesting');
-var warning = require('fbjs/lib/warning');
 
 var Flags = ReactDOMComponentFlags;
 var deleteListener = EventPluginHub.deleteListener;

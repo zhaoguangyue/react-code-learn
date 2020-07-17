@@ -1,22 +1,10 @@
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- */
 
- 
-
-var _prodInvariant = require('./reactProdInvariant');
-
-var ReactCurrentOwner = require('../../react/lib/ReactCurrentOwner');
 var ReactDOMComponentTree = require('./ReactDOMComponentTree');
 var ReactInstanceMap = require('./ReactInstanceMap');
 
 var getHostComponentFromComposite = require('./getHostComponentFromComposite');
-var invariant = require('fbjs/lib/invariant');
-var warning = require('fbjs/lib/warning');
+   
+   
 
 /**
  * Returns the DOM node rendered by this element.

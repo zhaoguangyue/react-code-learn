@@ -8,16 +8,12 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant'),
-    _assign = require('object-assign');
+var _assign = require('object-assign');
 
 var ReactCompositeComponent = require('./ReactCompositeComponent');
 var ReactEmptyComponent = require('./ReactEmptyComponent');
 var ReactHostComponent = require('./ReactHostComponent');
 
-var getNextDebugID = require('../../react/lib/getNextDebugID');
-var invariant = require('fbjs/lib/invariant');
-var warning = require('fbjs/lib/warning');
 
 // To avoid a cyclic dependency, we create the final class in this module
 // 这是个构造函数
@@ -33,16 +29,6 @@ var ReactCompositeComponentWrapper = function (element) {
    */
   this.construct(element);
 };
-
-function getDeclarationErrorAddendum(owner) {
-  if (owner) {
-    var name = owner.getName();
-    if (name) {
-      return ' Check the render method of `' + name + '`.';
-    }
-  }
-  return '';
-}
 
 /**
  * Check if the type reference is a known internal type. I.e. not a user

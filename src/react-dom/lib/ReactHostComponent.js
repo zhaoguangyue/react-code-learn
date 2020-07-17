@@ -8,9 +8,9 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant');
+   
 
-var invariant = require('fbjs/lib/invariant');
+   
 
 var genericComponentClass = null;
 var textComponentClass = null;

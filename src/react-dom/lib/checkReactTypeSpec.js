@@ -8,13 +8,10 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant');
+   
 
 var ReactPropTypeLocationNames = require('./ReactPropTypeLocationNames');
 var ReactPropTypesSecret = require('./ReactPropTypesSecret');
-
-var invariant = require('fbjs/lib/invariant');
-var warning = require('fbjs/lib/warning');
 
 var ReactComponentTreeHook;
 

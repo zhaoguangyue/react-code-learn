@@ -14,7 +14,7 @@ var LinkedValueUtils = require('./LinkedValueUtils');
 var ReactDOMComponentTree = require('./ReactDOMComponentTree');
 var ReactUpdates = require('./ReactUpdates');
 
-var warning = require('fbjs/lib/warning');
+   
 
 var didWarnValueLink = false;
 var didWarnValueDefaultValue = false;

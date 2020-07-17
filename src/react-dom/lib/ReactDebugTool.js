@@ -15,7 +15,7 @@ var ReactComponentTreeHook = require('../../react/lib/ReactComponentTreeHook');
 var ExecutionEnvironment = require('fbjs/lib/ExecutionEnvironment');
 
 var performanceNow = require('fbjs/lib/performanceNow');
-var warning = require('fbjs/lib/warning');
+   
 
 var hooks = [];
 var didHookThrowForEvent = {};

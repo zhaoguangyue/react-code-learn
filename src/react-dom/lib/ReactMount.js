@@ -8,19 +8,16 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant');
+   
 
 var DOMLazyTree = require('./DOMLazyTree');
 var DOMProperty = require('./DOMProperty');
 var React = require('../../react/lib/React');
 var ReactBrowserEventEmitter = require('./ReactBrowserEventEmitter');
-var ReactCurrentOwner = require('../../react/lib/ReactCurrentOwner');
 var ReactDOMComponentTree = require('./ReactDOMComponentTree');
 var ReactDOMContainerInfo = require('./ReactDOMContainerInfo');
 var ReactDOMFeatureFlags = require('./ReactDOMFeatureFlags');
-var ReactFeatureFlags = require('./ReactFeatureFlags');
 var ReactInstanceMap = require('./ReactInstanceMap');
-var ReactInstrumentation = require('./ReactInstrumentation');
 var ReactMarkupChecksum = require('./ReactMarkupChecksum');
 var ReactReconciler = require('./ReactReconciler');
 var ReactUpdateQueue = require('./ReactUpdateQueue');
@@ -28,10 +25,10 @@ var ReactUpdates = require('./ReactUpdates');
 
 var emptyObject = require('fbjs/lib/emptyObject');
 var instantiateReactComponent = require('./instantiateReactComponent');
-var invariant = require('fbjs/lib/invariant');
+   
 var setInnerHTML = require('./setInnerHTML');
 var shouldUpdateReactComponent = require('./shouldUpdateReactComponent');
-var warning = require('fbjs/lib/warning');
+   
 
 var ATTR_NAME = DOMProperty.ID_ATTRIBUTE_NAME;
 var ROOT_ATTR_NAME = DOMProperty.ROOT_ATTRIBUTE_NAME;
@@ -42,21 +39,6 @@ var DOCUMENT_FRAGMENT_NODE_TYPE = 11;
 
 var instancesByReactRootID = {};
 
-/**
- * Finds the index of the first character
- * that's not common between the two given strings.
- *
- * @return {number} the index of the character where the strings diverge
- */
-function firstDifferenceIndex(string1, string2) {
-  var minLen = Math.min(string1.length, string2.length);
-  for (var i = 0; i < minLen; i++) {
-    if (string1.charAt(i) !== string2.charAt(i)) {
-      return i;
-    }
-  }
-  return string1.length === string2.length ? -1 : minLen;
-}
 
 /**
  * @param {DOMElement|DOMDocument} container DOM element that may contain

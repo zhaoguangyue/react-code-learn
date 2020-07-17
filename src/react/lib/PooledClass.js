@@ -1,19 +1,4 @@
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
- 
-
-var _prodInvariant = require('./reactProdInvariant');
-
-var invariant = require('fbjs/lib/invariant');
-
-/**
  * Static poolers. Several custom versions for each potential number of
  * arguments. A completely generic pooler is easy to implement, but would
  * require accessing the `arguments` object. In each of these, `this` refers to

@@ -8,23 +8,12 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant'),
-    _assign = require('object-assign');
+var _assign = require('object-assign');
 
 var DOMPropertyOperations = require('./DOMPropertyOperations');
 var LinkedValueUtils = require('./LinkedValueUtils');
 var ReactDOMComponentTree = require('./ReactDOMComponentTree');
 var ReactUpdates = require('./ReactUpdates');
-
-var invariant = require('fbjs/lib/invariant');
-var warning = require('fbjs/lib/warning');
-
-var didWarnValueLink = false;
-var didWarnCheckedLink = false;
-var didWarnValueDefaultValue = false;
-var didWarnCheckedDefaultChecked = false;
-var didWarnControlledToUncontrolled = false;
-var didWarnUncontrolledToControlled = false;
 
 function forceUpdateIfMounted() {
   if (this._rootNodeID) {

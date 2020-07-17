@@ -8,14 +8,11 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant');
 
 var ReactChildren = require('./ReactChildren');
 var ReactElement = require('./ReactElement');
 
 var emptyFunction = require('fbjs/lib/emptyFunction');
-var invariant = require('fbjs/lib/invariant');
-var warning = require('fbjs/lib/warning');
 
 /**
  * We used to allow keyed objects to serve as a collection of ReactElements,

@@ -8,8 +8,7 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant'),
-    _assign = require('object-assign');
+var _assign = require('object-assign');
 
 var EventConstants = require('./EventConstants');
 var EventPluginHub = require('./EventPluginHub');
@@ -25,8 +24,8 @@ var SyntheticEvent = require('./SyntheticEvent');
 var ReactShallowRenderer = require('./ReactShallowRenderer');
 
 var findDOMNode = require('./findDOMNode');
-var invariant = require('fbjs/lib/invariant');
-var warning = require('fbjs/lib/warning');
+   
+   
 
 var topLevelTypes = EventConstants.topLevelTypes;
 

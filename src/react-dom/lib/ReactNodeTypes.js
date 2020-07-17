@@ -9,11 +9,11 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant');
+   
 
 var React = require('../../react/lib/React');
 
-var invariant = require('fbjs/lib/invariant');
+   
 
 var ReactNodeTypes = {
   HOST: 0,

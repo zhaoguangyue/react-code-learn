@@ -21,10 +21,7 @@ var ReactElement = require('./ReactElement');
 
 var checkReactTypeSpec = require('./checkReactTypeSpec');
 
-var canDefineProperty = require('./canDefineProperty');
 var getIteratorFn = require('./getIteratorFn');
-var warning = require('fbjs/lib/warning');
-var lowPriorityWarning = require('./lowPriorityWarning');
 
 function getDeclarationErrorAddendum() {
   if (ReactCurrentOwner.current) {

@@ -7,7 +7,7 @@
  */
  
 
-var _prodInvariant = require('./reactProdInvariant');
+   
 
 var React = require('../../react/lib/React');
 var ReactDOMContainerInfo = require('./ReactDOMContainerInfo');
@@ -21,7 +21,7 @@ var ReactUpdates = require('./ReactUpdates');
 
 var emptyObject = require('fbjs/lib/emptyObject');
 var instantiateReactComponent = require('./instantiateReactComponent');
-var invariant = require('fbjs/lib/invariant');
+   
 
 var pendingTransactions = 0;
 

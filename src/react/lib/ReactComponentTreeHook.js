@@ -1,20 +1,5 @@
-/**
- * Copyright (c) 2016-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * 
- */
-
- 
-
-var _prodInvariant = require('./reactProdInvariant');
 
 var ReactCurrentOwner = require('./ReactCurrentOwner');
-
-var invariant = require('fbjs/lib/invariant');
-var warning = require('fbjs/lib/warning');
 
 function isNative(fn) {
   // Based on isNative() from Lodash

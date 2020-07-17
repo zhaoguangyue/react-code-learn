@@ -8,13 +8,12 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant'),
-    _assign = require('object-assign');
+var _assign = require('object-assign');
 
 var ReactInstanceMap = require('./ReactInstanceMap');
 var ReactTestUtils = require('./ReactTestUtils');
 
-var invariant = require('fbjs/lib/invariant');
+   
 
 function reactComponentExpect(instance) {
   if (instance instanceof reactComponentExpectInternal) {

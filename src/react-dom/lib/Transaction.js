@@ -9,9 +9,9 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant');
+   
 
-var invariant = require('fbjs/lib/invariant');
+   
 
 var OBSERVED_ERROR = {};
 

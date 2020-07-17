@@ -8,12 +8,9 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant'),
-    _assign = require('object-assign');
+var _assign = require('object-assign');
 
-var React = require('../../react/lib/React');
 var ReactComponentEnvironment = require('./ReactComponentEnvironment');
-var ReactCurrentOwner = require('../../react/lib/ReactCurrentOwner');
 var ReactErrorUtils = require('./ReactErrorUtils');
 var ReactInstanceMap = require('./ReactInstanceMap');
 var ReactInstrumentation = require('./ReactInstrumentation');
@@ -21,10 +18,10 @@ var ReactNodeTypes = require('./ReactNodeTypes');
 var ReactReconciler = require('./ReactReconciler');
 
 var emptyObject = require('fbjs/lib/emptyObject');
-var invariant = require('fbjs/lib/invariant');
+   
 var shallowEqual = require('fbjs/lib/shallowEqual');
 var shouldUpdateReactComponent = require('./shouldUpdateReactComponent');
-var warning = require('fbjs/lib/warning');
+   
 
 var CompositeTypes = {
   ImpureClass: 0,

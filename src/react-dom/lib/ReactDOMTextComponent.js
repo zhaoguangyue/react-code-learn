@@ -8,17 +8,14 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant'),
-    _assign = require('object-assign');
+var _assign = require('object-assign');
 
 var DOMChildrenOperations = require('./DOMChildrenOperations');
 var DOMLazyTree = require('./DOMLazyTree');
 var ReactDOMComponentTree = require('./ReactDOMComponentTree');
 
 var escapeTextContentForBrowser = require('./escapeTextContentForBrowser');
-var invariant = require('fbjs/lib/invariant');
-var validateDOMNesting = require('./validateDOMNesting');
-
+   
 /**
  * Text nodes violate a couple assumptions that React makes about components:
  *

@@ -8,11 +8,6 @@
 
  
 
-var warning = require('fbjs/lib/warning');
-
-function warnNoop(publicInstance, callerName) {
-  
-}
 
 /**
  * This is the abstract API for an update queue.
@@ -53,7 +48,6 @@ var ReactNoopUpdateQueue = {
    * @internal
    */
   enqueueForceUpdate: function (publicInstance) {
-    warnNoop(publicInstance, 'forceUpdate');
   },
 
   /**
@@ -68,7 +62,6 @@ var ReactNoopUpdateQueue = {
    * @internal
    */
   enqueueReplaceState: function (publicInstance, completeState) {
-    warnNoop(publicInstance, 'replaceState');
   },
 
   /**
@@ -82,7 +75,6 @@ var ReactNoopUpdateQueue = {
    * @internal
    */
   enqueueSetState: function (publicInstance, partialState) {
-    warnNoop(publicInstance, 'setState');
   }
 };
 

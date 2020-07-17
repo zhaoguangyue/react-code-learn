@@ -170,6 +170,8 @@ var SelectEventPlugin = {
       case 'topKeyDown':
       case 'topKeyUp':
         return constructSelectEvent(nativeEvent, nativeEventTarget);
+      default:
+        break;
     }
 
     return null;

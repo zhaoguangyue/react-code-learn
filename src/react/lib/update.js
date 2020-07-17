@@ -10,10 +10,8 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant'),
-    _assign = require('object-assign');
+var _assign = require('object-assign');
 
-var invariant = require('fbjs/lib/invariant');
 var hasOwnProperty = {}.hasOwnProperty;
 
 function shallowCopy(x) {

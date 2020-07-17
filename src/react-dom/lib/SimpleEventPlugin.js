@@ -9,7 +9,7 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant');
+   
 
 var EventListener = require('fbjs/lib/EventListener');
 var EventPropagators = require('./EventPropagators');
@@ -28,7 +28,7 @@ var SyntheticWheelEvent = require('./SyntheticWheelEvent');
 
 var emptyFunction = require('fbjs/lib/emptyFunction');
 var getEventCharCode = require('./getEventCharCode');
-var invariant = require('fbjs/lib/invariant');
+   
 
 /**
  * Turns

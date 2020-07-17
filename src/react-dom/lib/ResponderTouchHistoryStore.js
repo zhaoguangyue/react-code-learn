@@ -9,12 +9,12 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant');
+   
 
 var EventPluginUtils = require('./EventPluginUtils');
 
-var invariant = require('fbjs/lib/invariant');
-var warning = require('fbjs/lib/warning');
+   
+   
 
 var isEndish = EventPluginUtils.isEndish,
     isMoveish = EventPluginUtils.isMoveish,

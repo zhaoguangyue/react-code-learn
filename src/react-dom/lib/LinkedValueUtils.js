@@ -8,7 +8,7 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant');
+   
 
 var ReactPropTypesSecret = require('./ReactPropTypesSecret');
 var propTypesFactory = require('prop-types/factory');
@@ -16,8 +16,8 @@ var propTypesFactory = require('prop-types/factory');
 var React = require('../../react/lib/React');
 var PropTypes = propTypesFactory(React.isValidElement);
 
-var invariant = require('fbjs/lib/invariant');
-var warning = require('fbjs/lib/warning');
+   
+   
 
 var hasReadOnlyValue = {
   button: true,

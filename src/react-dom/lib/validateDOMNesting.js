@@ -7,11 +7,8 @@
  */
 
  
-
-var _assign = require('object-assign');
-
 var emptyFunction = require('fbjs/lib/emptyFunction');
-var warning = require('fbjs/lib/warning');
+   
 
 var validateDOMNesting = emptyFunction;
 

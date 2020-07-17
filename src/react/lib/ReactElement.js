@@ -12,8 +12,6 @@ var _assign = require('object-assign');
 
 var ReactCurrentOwner = require('./ReactCurrentOwner');
 
-var warning = require('fbjs/lib/warning');
-var canDefineProperty = require('./canDefineProperty');
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
 var REACT_ELEMENT_TYPE = require('./ReactElementSymbol');

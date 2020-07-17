@@ -8,31 +8,15 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant');
+   
 
-var ReactCurrentOwner = require('./ReactCurrentOwner');
 var REACT_ELEMENT_TYPE = require('./ReactElementSymbol');
 
 var getIteratorFn = require('./getIteratorFn');
-var invariant = require('fbjs/lib/invariant');
 var KeyEscapeUtils = require('./KeyEscapeUtils');
-var warning = require('fbjs/lib/warning');
 
 var SEPARATOR = '.';
 var SUBSEPARATOR = ':';
-
-/**
- * This is inlined from ReactElement since this file is shared between
- * isomorphic and renderers. We could extract this to a
- *
- */
-
-/**
- * TODO: Test that a single child and an array with one item have the same key
- * pattern.
- */
-
-var didWarnAboutMaps = false;
 
 /**
  * Generate a key string that identifies a component within a set.

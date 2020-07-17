@@ -8,15 +8,11 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant'),
-    _assign = require('object-assign');
+var _assign = require('object-assign');
 
 var ReactNoopUpdateQueue = require('./ReactNoopUpdateQueue');
 
-var canDefineProperty = require('./canDefineProperty');
 var emptyObject = require('fbjs/lib/emptyObject');
-var invariant = require('fbjs/lib/invariant');
-var lowPriorityWarning = require('./lowPriorityWarning');
 
 /**
  * Base class helpers for the updating state of a component.

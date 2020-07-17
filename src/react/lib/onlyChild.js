@@ -1,17 +1,5 @@
-/**
- * Copyright (c) 2013-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- */
- 
-
-var _prodInvariant = require('./reactProdInvariant');
 
 var ReactElement = require('./ReactElement');
-
-var invariant = require('fbjs/lib/invariant');
 
 /**
  * Returns the first child in a collection of children and verifies that there

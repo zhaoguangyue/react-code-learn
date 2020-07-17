@@ -9,10 +9,9 @@
  
 
 var CSSProperty = require('./CSSProperty');
-var warning = require('fbjs/lib/warning');
+   
 
 var isUnitlessNumber = CSSProperty.isUnitlessNumber;
-var styleWarnings = {};
 
 /**
  * Convert a value into the proper css writable value. The style name `name`

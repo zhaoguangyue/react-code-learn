@@ -8,8 +8,7 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant'),
-    _assign = require('object-assign');
+var _assign = require('object-assign');
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -22,7 +21,7 @@ var ReactUpdates = require('./ReactUpdates');
 
 var emptyObject = require('fbjs/lib/emptyObject');
 var getNextDebugID = require('../../react/lib/getNextDebugID');
-var invariant = require('fbjs/lib/invariant');
+   
 
 function injectDefaults() {
   ReactUpdates.injection.injectReconcileTransaction(ReactReconcileTransaction);

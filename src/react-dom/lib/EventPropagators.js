@@ -13,7 +13,7 @@ var EventPluginUtils = require('./EventPluginUtils');
 
 var accumulateInto = require('./accumulateInto');
 var forEachAccumulated = require('./forEachAccumulated');
-var warning = require('fbjs/lib/warning');
+   
 
 var getListener = EventPluginHub.getListener;
 

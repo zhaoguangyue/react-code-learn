@@ -9,13 +9,9 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant');
-
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var PooledClass = require('./PooledClass');
-
-var invariant = require('fbjs/lib/invariant');
 
 /**
  * A specialized pseudo-event module to help keep track of components waiting to

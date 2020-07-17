@@ -10,8 +10,6 @@
 
 var DOMLazyTree = require('./DOMLazyTree');
 var Danger = require('./Danger');
-var ReactDOMComponentTree = require('./ReactDOMComponentTree');
-var ReactInstrumentation = require('./ReactInstrumentation');
 
 var createMicrosoftUnsafeLocalFunction = require('./createMicrosoftUnsafeLocalFunction');
 var setInnerHTML = require('./setInnerHTML');
@@ -147,6 +145,8 @@ var DOMChildrenOperations = {
           break;
         case 'REMOVE_NODE':
           removeChild(parentNode, update.fromNode);
+          break;
+        default:
           break;
       }
     }

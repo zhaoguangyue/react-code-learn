@@ -20,7 +20,7 @@ var ReactVersion = require('./ReactVersion');
 var findDOMNode = require('./findDOMNode');
 var getHostComponentFromComposite = require('./getHostComponentFromComposite');
 var renderSubtreeIntoContainer = require('./renderSubtreeIntoContainer');
-var warning = require('fbjs/lib/warning');
+   
 
 ReactDefaultInjection.inject();
 

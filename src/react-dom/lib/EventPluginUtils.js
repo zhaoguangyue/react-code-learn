@@ -8,12 +8,12 @@
 
  
 
-var _prodInvariant = require('./reactProdInvariant');
+   
 
 var ReactErrorUtils = require('./ReactErrorUtils');
 
-var invariant = require('fbjs/lib/invariant');
-var warning = require('fbjs/lib/warning');
+   
+   
 
 /**
  * Injected dependencies:

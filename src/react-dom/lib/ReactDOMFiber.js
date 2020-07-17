@@ -11,7 +11,7 @@
 
 var ReactFiberReconciler = require('./ReactFiberReconciler');
 
-var warning = require('fbjs/lib/warning');
+   
 
 function recursivelyAppendChildren(parent, child) {
   if (!child) {
